@@ -1,0 +1,38 @@
+*{
+  background-color: white;
+}
+
+.menu_container{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  z-index: 999;
+}
+
+.logo
+{
+  width: 50px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+}
+
+.menu > li{
+  padding: 10px;
+  list-style: none;
+  font-family: SST,helvetica,arial,sans-serif;
+  font-weight:bold;
+}
+
+.menu > li:hover{
+  color: rgb(70, 70, 255)
+}

@@ -1,0 +1,16 @@
+.card-label_container{
+  position: absolute;
+  bottom:90px;
+  right: 0;
+}
+
+.content{
+  background-color: rgba(1, 54, 176, 0.759);
+  color: white;
+  font-family: SST,helvetica,arial,sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+}
